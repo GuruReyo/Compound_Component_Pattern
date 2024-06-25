@@ -5,32 +5,32 @@ function App() {
   return (
     <main>
       <section>
-        <h2>Why work with us?</h2>
+        <h2>Why choose our services?</h2>
         <Accordion className="accordion">
-          <Accordion.Item id='1' className="accordion-item">
+          <Accordion.Item id="1" className="accordion-item">
             <Accordion.Title className="accordion-item-title">
-              We got 20 years of experience
+              Personalized Travel Plans
             </Accordion.Title>
-            <Accordion.Content className="accordion-item-content" >
+            <Accordion.Content className="accordion-item-content">
               <article>
-                <p>You can't go wrong with us</p>
+                <p>Customized Itineraries Just for You</p>
                 <p>
-                  We are in the business of planning highly individualized
-                  vaction trips for more than 20 years.
+                  We create travel plans tailored to your interests and preferences,
+                  ensuring a unique and memorable experience every time.
                 </p>
               </article>
             </Accordion.Content>
           </Accordion.Item>
-          <Accordion.Item  id="2" className="accordion-item">
-            <Accordion.Title  className='accordion-item-title'>
-              We're working with local guides
+          <Accordion.Item id="2" className="accordion-item">
+            <Accordion.Title className="accordion-item-title">
+              24/7 Customer Support
             </Accordion.Title>
-            <Accordion.Content  className='accordion-item-content'>
+            <Accordion.Content className="accordion-item-content">
               <article>
-                <p>We are not doing this along from our office.</p>
+                <p>Always Here to Help</p>
                 <p>
-                  Instead, we are working with local guides to ensure a safe and
-                  pleasant vacation.
+                  Our dedicated support team is available around the clock to assist
+                  you with any inquiries or issues that may arise during your trip.
                 </p>
               </article>
             </Accordion.Content>
