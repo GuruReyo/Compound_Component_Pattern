@@ -1,9 +1,9 @@
 import React, { useContext, useState } from "react";
 import { createContext } from "react";
 const AccordionContext = createContext();
-import AccordionItem from "./AccordionItem";
-import AccordionTitel from "./AccordionTitel";
-import AccordionContent from "./AccordionContent";
+import AccordionItem from "../Accordion/AccordionItem";
+import AccordionTitel from "../Accordion/AccordionTitel";
+import AccordionContent from "../Accordion/AccordionContent";
 export function useAccordionContext() {
   const ctx = useContext(AccordionContext);
   if (!ctx) {

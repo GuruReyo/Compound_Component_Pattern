@@ -1,6 +1,6 @@
 import React from 'react'
 import { useAccordionContext } from './Accordion'
-import { useAccordionItemContext } from './AccordionItem';
+import { useAccordionItemContext } from '../Accordion/AccordionItem';
 
 function AccordionTitel({children,className}) {
     const {toggleItem}=useAccordionContext();
